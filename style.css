@@ -1,0 +1,63 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #859B81;
+    color: antiquewhite;
+}
+
+section {
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 40px;
+}
+.formulario {
+    outline: 0;
+    border: none;
+    height: 27px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 1px 10px;
+    border-radius: 5px;
+    color: #6f856b;
+    background-color: #aac4a5;
+    border: #6f856b solid 1px;
+}
+
+.btn {
+    height: 29px;
+    border: none;
+    cursor: pointer;
+    color: #6f856b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: #6f856b solid 1px;
+    background-color: antiquewhite;
+}
+.btn:hover {
+    color: antiquewhite;
+    background-color: #6f856b;
+}
+
+section div {
+    margin-top: 30px;
+}
+
+#resposta {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Logo */
+.logo_bianca {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.logo_bianca img{
+    width: 30px;
+}
