@@ -10,11 +10,13 @@ section {
     text-align: center;
     margin-top: 40px;
 }
+fieldset {
+    border: none;
+}
 .formulario {
     outline: 0;
     border: none;
     height: 27px;
-    margin-top: 20px;
     font-size: 18px;
     font-weight: 900;
     padding: 1px 10px;
@@ -43,9 +45,11 @@ section div {
     margin-top: 30px;
 }
 
-#resposta {
+span {
     font-size: 20px;
     font-weight: 400;
+    display: block;
+    margin-top: 30px;
 }
 
 /* Logo */

@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valores</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section>
-        <h1>Valores</h1>
-        <input class="formulario" id="numero1" type="number" placeholder="Adicione um número">
-        <input class="formulario" id="numero2" type="number" placeholder="Adicione um número">
-        <button class="btn" onclick="calcularValor(event)"  type="submit">Validar</button>
+        <h1>Calculadora com Validação</h1>
+        <fieldset>
+            <input class="formulario" id="numero1" type="number" placeholder="Adicione um número">
+            <select class="formulario" name="operadoresMatematicos" id="operadoresMatematicos">
+                <option value="adição">+</option>
+                <option value="subtração">-</option>
+                <option value="divisão">/</option>
+                <option value="multiplicação">*</option>
+            </select>
+            <input class="formulario" id="numero2" type="number" placeholder="Adicione um número">
+        </fieldset>
+        <div>
+            <button class="btn" onclick="calcularConta(event)"  type="submit">Calcular</button>
+            <button class="btn" onclick="validaValor(event)"  type="submit">Validar</button>
+        </div>
         <div>
             <span id="resposta"></span>
+            <span id="frase"></span>
+
         </div>
     </section>
 
@@ -22,6 +35,6 @@
         <img src="assets/logo.png" alt="">
         <p>Bianca Barcelos</p>
     </div>   
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
